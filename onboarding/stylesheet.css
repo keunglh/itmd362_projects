@@ -2,10 +2,13 @@ body {
     font-family: 'Roboto', sans-serif;
     background-color: #129894;
     color: whitesmoke;
+    background-image: url('images/zk5.png');
+    background-repeat: repeat;
 }
 
 #header {
   position: relative;
+  height: 256px;
 }
 
 @media (max-width: 1199px) {
@@ -25,64 +28,60 @@ body {
 
 }
 
-@media (max-width: 979px) {
+@media (max-width: 1150px) {
   .brand {
     float: none;
   }
 }
 
-.nav {
-  text-align: right;
-  float: right;
-}
-
-@media (max-width: 979px) {
+@media (max-width: 1150px) {
   .nav {
     text-align: center;
     float: none;
   }
 }
 
-.sf-menu {
+.menu {
   display: inline-block;
   margin-right: -10px;
   list-style-type:none;
+  background-color: dodgerblue;
 }
 
-.sf-menu > li {
+.menu > li {
   position: relative;
   float: left;
-  font: 400 22px/22px 'Marvel', sans-serif;
+  font: 400 22px/22px 'Roboto', sans-serif;
   text-align: center;
   text-transform: capitalize;
   letter-spacing: 1.1px;
 }
 
-.sf-menu > li > a {
+.menu > li > a {
   position: relative;
   display: inline-block;
   padding: 23px 10px 21px;
   color: #000000;
 }
 
-.sf-menu > li.sfHover > a,
-.sf-menu > li.current > a,
-.sf-menu > li > a:hover {
+.menu > li.sfHover > a,
+.menu > li.current > a,
+.menu > li > a:hover {
   background: #edecec;
   color: #02918d;
   text-decoration: none;
 }
 
-.sf-menu > li + li {
+.menu > li + li {
   margin-left: 39px;
 }
 
-.sf-menu ul {
+.menu ul {
   position: absolute;
   display: none;
   width: 220px;
   padding: 10px 0;
-  text-align: left;
+  text-align: center;
   background: #ffffff;
   z-index: 2;
   -webkit-box-sizing: border-box;
@@ -92,12 +91,29 @@ body {
   box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.25);
 }
 
-.sf-menu ul li.sfHover > a,
-.sf-menu ul li.current > a,
-.sf-menu ul li a:hover {
+.menu ul li.sfHover > a,
+.menu ul li.current > a,
+.menu ul li a:hover {
   background: #129894;
   color: #ffffff;
   text-decoration: none;
+}
+
+#content{
+  padding: 16px 32px;
+  box-sizing: border-box;
+  margin: 1em 2em 1.5em 1.5em;
+  position: relative;
+  background-color: darkblue;
+}
+
+#content form {
+  text-align: center;
+  color: navajowhite;
+}
+
+#content p{
+  color: navajowhite;
 }
 
 #footer {
@@ -126,18 +142,18 @@ ul.footer-content li{
 
 #footer-wrapper {
   float: left;
-  width: 30%;
-  margin: 0 0 0 2.5%;
+  width: 10%;
+  margin: none;
 }
 
 #footer-links {
   float: left;
   width: 30%;
-  margin: 0 2.5%;
+  margin: 2.5% 2.5%;
 }
 
 #footer-address {
   float: left;
   width: 30%;
-  margin: 0 2.5% 0 0;
+  margin: 5% 5%;
 }
