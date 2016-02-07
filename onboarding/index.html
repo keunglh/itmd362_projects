@@ -31,11 +31,18 @@
     </header>    
     
     <div id="content">
-        <form action="#" method="get" id="SPAMTHISGUY">
+        <form action="#" method="POST" id="SPAMTHISGUY" autocomplete="on">
             <label for="email">Email to Receive More Information!</label>
-            <label type="email" name="spamEmail"/>
-            <input type="spamEmail" value="Help Me Love You!"/>
-            <button type="submit" form="SPAMTHISGUY" value="submit">Receive More Information</button>
+            <input type="spamEmail" id="email" placeholder="Help Me Love You!"/>
+            <br/>
+            <label for="Name">Your Name </label>
+            <input type="text" id="Name" placeholder="Your Name" title="Enter your name here."/>
+            <br/>
+            <label for="telephone">Phone Number (Optional for consultation purposes)</label>
+            <input type="telephone" placeholder="Phone Number" id="telephone" title="Enter your phone number"/>
+            <br/>
+            <input type="reset" id="reset"/>       
+            <button type="submit" form="SPAMTHISGUY" value="submit">Receive More Information!</button>
         </form>
     
         <p>
