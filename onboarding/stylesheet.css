@@ -29,16 +29,32 @@ body {
 
 }
 
-@media (max-width: 1150px) {
-  .brand {
-    float: none;
-  }
+@media only screen and (min-width: 767px) {
+    input{
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      -ie-appearance: none;
+      -webkit-text-size-adjust: 100%;
+      -mox-text-size-adjust: 100%;
+      -ie-text-size-adjust: 100%;
+      text-size-adjust: 100%;
+      display: block;
+      margin: 0;
+      margin-bottom: 20px;
+      width: 100%;
+      height: 2em;
+      line-height: .75em;
+      font-size: 1em;
+      border: 0.1em solid #ccc;
+      background-color: ghostwhite;
+    }
 }
 
-@media (max-width: 1150px) {
+@media (min-width: 1035px) {
   .nav {
     text-align: center;
-    float: none;
+    float: right;
+    margin-right: 3em;
   }
 }
 
@@ -80,13 +96,19 @@ body {
   margin-top: 2em;
   position: relative;
   background-color: darkblue;
+  display: relative;
+  opacity: .8;
+  max-width: 72em;
+}
+
+#content:hover {
+  opacity: 1;
 }
 
 #form{
   padding: 16px 32px;
   text-align:left;
   color: navajowhite;
-  background-color: darkblue;
 }
 
 #form label {
@@ -98,7 +120,13 @@ body {
   margin-bottom: 1em;
 }
 
+#form input:hover{
+  background-color: whitesmoke;
+  border-radius: .5em;
+}
+
 #reset {
+  display:block;
   padding: .5em;
 }
 
