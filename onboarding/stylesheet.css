@@ -98,7 +98,6 @@ body {
   background-color: darkblue;
   display: relative;
   opacity: .8;
-  max-width: 72em;
 }
 
 #content:hover {
