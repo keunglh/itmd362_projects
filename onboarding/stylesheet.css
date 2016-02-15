@@ -44,6 +44,7 @@ body {
 .menu {
   display: inline-block;
   margin-right: -10px;
+  margin-top: 50px;
   list-style-type:none;
   background-color: dodgerblue;
 }
@@ -77,7 +78,7 @@ body {
 }
 
 .menu ul {
-  position: absolute;
+  position: relative;
   display: none;
   width: 220px;
   padding: 10px 0;
@@ -101,16 +102,24 @@ body {
 
 #content{
   padding: 16px 32px;
-  box-sizing: border-box;
-  margin: 1em 2em 1.5em 1.5em;
+  margin-top: 15%;
   position: relative;
   background-color: darkblue;
 }
 
 #content form {
-  text-align: center;
+  text-align:left;
   color: navajowhite;
 }
+
+#content label {
+  display:block;
+}
+
+#content input {
+  display:block;
+}
+
 
 #content p{
   color: navajowhite;
@@ -132,12 +141,8 @@ body {
 
 #footer-links li a img{
   border-radius: 0.625em;
-}
-
-ul.footer-content li{
-  font-size: 0.875em;
-  list-style-type:none;
-  color: darkslategray;
+  text-decoration: none;
+  display: inline-block;
 }
 
 #footer-wrapper {
@@ -150,10 +155,4 @@ ul.footer-content li{
   float: left;
   width: 30%;
   margin: 2.5% 2.5%;
-}
-
-#footer-address {
-  float: left;
-  width: 30%;
-  margin: 5% 5%;
 }
