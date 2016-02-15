@@ -120,6 +120,7 @@ body {
 }
 
 #form input:hover{
+  color: navajowhite;
   background-color: whitesmoke;
   border-radius: .5em;
 }
