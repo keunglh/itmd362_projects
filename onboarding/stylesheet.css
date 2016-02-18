@@ -19,13 +19,6 @@ body {
   height: auto;
 }
 
-@media (max-width: 590x) {
-  .brand h1{
-    width: 100%;
-    height: auto;
-  }
-}
-
 @media only screen and (min-width: 767px) {
     input{
       -webkit-appearance: none;
@@ -48,11 +41,12 @@ body {
 }
 
 #content{
-  padding: 16px 32px;
+  padding: 0em 2em;
+  margin: auto;
+  width: 90%;
   margin-top: 1em;
   position: relative;
   background-color: darkblue;
-  display: relative;
   opacity: .8;
 }
 
@@ -67,6 +61,8 @@ body {
 }
 
 #form{
+  display: block;
+  padding: 0em 2em;
   line-height: 2em;
   font-size: 1.08em;
   margin-top: -2em;
