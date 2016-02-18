@@ -12,21 +12,18 @@ body {
   height: 256px;
 }
 
-@media (max-width: 1199px) {
-  #header {
-    text-align: center;
+.brand img{
+  display: block;
+  width: 100%;
+  max-width: 435px;
+  height: auto;
+}
+
+@media (max-width: 590x) {
+  .brand h1{
+    width: 100%;
+    height: auto;
   }
-}
-
-.brand {
-  text-align: center;
-  float: left;
-}
-
-.brand h1 {
-  display: inline-block;
-  text-align: left;
-
 }
 
 @media only screen and (min-width: 767px) {
@@ -50,54 +47,19 @@ body {
     }
 }
 
-@media (min-width: 1035px) {
-  .nav {
-    text-align: center;
-    float: right;
-    margin-right: 3em;
-  }
-}
-
-.menu {
-  display: inline-block;
-  margin-right: -10px;
-  margin-top: 30px;
-  list-style-type:none;
-  background-color: dodgerblue;
-}
-
-.menu > li {
-  position: relative;
-  float: left;
-  font: 400 22px/22px 'Roboto', sans-serif;
-  text-align: center;
-  text-transform: capitalize;
-  letter-spacing: .1em;
-}
-
-.menu > li > a {
-  position: relative;
-  display: inline-block;
-  padding: 23px 10px 21px;
-  color: #000000;
-}
-
-.menu > li.sfHover > a,
-.menu > li.current > a,
-.menu > li > a:hover {
-  background: #edecec;
-  color: #02918d;
-  text-decoration: none;
-}
-
-
 #content{
   padding: 16px 32px;
-  margin-top: 2em;
+  margin-top: 1em;
   position: relative;
   background-color: darkblue;
   display: relative;
   opacity: .8;
+}
+
+#content p{
+  display: block;
+  color: navajowhite;
+  padding-bottom: 2em;
 }
 
 #content:hover {
@@ -105,7 +67,9 @@ body {
 }
 
 #form{
-  padding: 16px 32px;
+  line-height: 2em;
+  font-size: 1.08em;
+  margin-top: -2em;
   text-align:left;
   color: navajowhite;
 }
@@ -126,18 +90,16 @@ body {
 }
 
 #reset {
+  background-color: darkblue;
+  color: navajowhite;
   display:block;
   padding: .5em;
 }
 
 #submit {
-  padding: .5em;
-}
-
-#content p{
-  display: block;
+  background-color: darkblue;
   color: navajowhite;
-  padding-bottom: 2em;
+  padding: .5em;
 }
 
 #footer {
