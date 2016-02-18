@@ -33,7 +33,8 @@ body {
       margin-bottom: 20px;
       width: 100%;
       height: 2em;
-      line-height: .75em;
+      line-height: .5em;
+      text-align: left;
       font-size: 1em;
       border: 0.1em solid #ccc;
       background-color: ghostwhite;
@@ -41,7 +42,7 @@ body {
 }
 
 #content{
-  padding: 0em 2em;
+  padding: 1em 2em;
   margin: auto;
   width: 90%;
   margin-top: 1em;
@@ -50,10 +51,20 @@ body {
   opacity: .8;
 }
 
+#content img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 389px;
+  height: auto;
+}
+
 #content p{
   display: block;
   color: navajowhite;
   padding-bottom: 2em;
+  padding-top: 1em;
 }
 
 #content:hover {
@@ -80,7 +91,7 @@ body {
 }
 
 #form input:hover{
-  color: navajowhite;
+  color: black;
   background-color: whitesmoke;
   border-radius: .5em;
 }
@@ -88,13 +99,14 @@ body {
 #reset {
   background-color: darkblue;
   color: navajowhite;
-  display:block;
+  text-align: center;
   padding: .5em;
 }
 
 #submit {
   background-color: darkblue;
   color: navajowhite;
+  text-align: center;
   padding: .5em;
 }
 
