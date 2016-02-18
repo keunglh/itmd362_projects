@@ -1,5 +1,8 @@
-$('#SPAMTHISGUY').submit(function (ev){
-    alert('Thank you for giving us permission to steal and sell your medical information!');
-});
 
-$('#SPAMTHISGUY').trigger("reset");
+$('#SPAMTHISGUY').submit(function (ev){
+    var email = document.getElementById('email');
+    var name = document.getElementById('name');
+    alert('Thank you for giving us permission to steal and sell your medical information!');
+    email.value = "";
+    name.value="";
+});
