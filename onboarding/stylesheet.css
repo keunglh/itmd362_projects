@@ -81,8 +81,8 @@ body {
   color: navajowhite;
 }
 
-#form label {
-  display:block;
+#form label::after {
+  content: ' : ';
 }
 
 #form input {
