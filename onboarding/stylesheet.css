@@ -9,14 +9,18 @@ body {
 
 #header {
   position: relative;
-  height: 16em;
+  height: 8em;
 }
 
-.brand img{
+.brand img {
   display: block;
-  width: 100%;
   max-width: 23.438em;
   height: auto;
+}
+
+.brand h1 {
+  display: inline-block;
+  text-align:left;
 }
 
 @media only screen and (min-width: 47.938em) {
@@ -79,7 +83,7 @@ body {
   font-size: 1.08em;
   margin: auto;
   width: 50%;
-  margin-top: -7em;
+  margin-top: 3em;
   text-align:left;
   color: navajowhite;
 }
@@ -93,7 +97,6 @@ body {
 }
 
 #form input {
-  display:block;
   margin-bottom: 1em;
   line-height: 1em;
 }
