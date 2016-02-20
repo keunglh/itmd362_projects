@@ -4,7 +4,9 @@ body {
     color: whitesmoke;
     padding-bottom: 5em;
     background-image: url('images/zk5.png');
-    background-repeat: repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 #header {
@@ -33,7 +35,7 @@ body {
       -ie-text-size-adjust: 100%;
       text-size-adjust: 100%;
       display: block;
-      margin: 0;
+      margin: 0 auto;
       margin-bottom: 1.25em;
       width: 80%;
       max-width: 50em;
@@ -43,6 +45,16 @@ body {
       font-size: 1em;
       border: 0.1em solid #ccc;
       background-color: ghostwhite;
+    }
+    label{
+      display: block;
+      margin: 0 auto;
+      width: 80%;
+      max-width: 50em;
+      height: 1.8em;
+      line-height: 1em;
+      text-align: left;
+      font-size: 1em;
     }
 }
 
@@ -81,9 +93,8 @@ body {
   padding: 0em 2em;
   line-height: 2em;
   font-size: 1.08em;
-  margin: auto;
+  margin: 0 auto;
   width: 50%;
-  margin-top: 3em;
   text-align:left;
   color: navajowhite;
 }
