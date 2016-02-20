@@ -16,6 +16,7 @@ body {
 
 .brand img {
   display: block;
+  width: 100%;
   max-width: 23.438em;
   height: auto;
 }
