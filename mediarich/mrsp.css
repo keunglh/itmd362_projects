@@ -1,0 +1,59 @@
+body{
+  font-family: 'Indie Flower', cursive;
+  background: url('img/TheySeeMeRolling.jpg') no-repeat center center fixed;
+}
+
+html{
+  font-family: 'Noto Sans', sans-serif;
+
+
+}
+
+#header{
+  position: relative;
+  height:8em;
+  background-color: #40B2E8;
+  opacity: .8;
+}
+
+#heading{
+  font-size: 4.25em;
+
+}
+
+#subheading{
+  font-size: 2.75em;
+}
+
+.imgContainer img {
+  display: block;
+  width: 100%;
+  max-width: 23.438em;
+  height: auto;
+}
+
+
+#links {
+  font-family: 'Bitter', serif;
+
+}
+
+h1{
+
+
+}
+
+p{
+
+
+}
+
+figcaption{
+
+}
+
+img{
+  width: 100%;
+
+
+}
