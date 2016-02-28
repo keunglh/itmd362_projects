@@ -3,13 +3,8 @@ body{
   background: url('img/TheySeeMeRolling.jpg') no-repeat center center fixed;
 }
 
-html{
-  font-family: 'Noto Sans', sans-serif;
-
-
-}
-
 #header{
+  font-family: 'Noto Sans', sans-serif;
   position: relative;
   height:8em;
   background-color: #40B2E8;
@@ -17,8 +12,7 @@ html{
 }
 
 #heading{
-  font-size: 4.25em;
-
+  font-size: 2.25em;
 }
 
 #subheading{
@@ -31,7 +25,7 @@ html{
   width: 80%;
   margin-top: 1em;
   position: relative;
-  background-color: #40B2E8;
+  background-color: rgba(64,178,232,.8);
 }
 
 figure{
@@ -44,8 +38,13 @@ figure{
   max-width: 100%;
 }
 
+figcaption{
+  font-size: 1vw;
+}
+
 .content h2{
-  font-size: 3em;
+  font-size: 3.7em;
+  font-weight: bold;
 }
 
 .content p{
@@ -57,25 +56,11 @@ figure{
 
 #bold{
   font-weight: bold;
+  font-size: 1.25em;
 }
 
 #links {
   font-family: 'Bitter', serif;
-
-}
-
-h1{
-
-
-}
-
-p{
-
-
-}
-
-figcaption{
-  font-size: 1vw;
 }
 
 .btt{
@@ -89,4 +74,56 @@ figcaption{
   -webkit-border-radius: 2em;
   -moz-border-radius: 2em;
   border-radius: 2em;
+}
+
+.flexbox{
+  display: -webkit-flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-flex-direction: row;
+
+  display:flex;
+  flex-direction:row;
+}
+
+.flexbox iframe{
+  display: inline-flex;
+  margin-bottom: 1em;
+}
+
+@media all and (min-width: 48em) {
+
+.no-flexbox iframe{
+
+    width: 100%;
+    display: block;
+}
+
+    .flexbox {
+        display: -webkit-flex;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+
+    iframe .flexbox {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: row;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-justify-content: space-around;
+            -ms-flex-pack: distribute;
+                justify-content: space-around;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+            -ms-flex-align: center;
+                    -ms-grid-row-align: center;
+                align-items: center;
+    }
 }
