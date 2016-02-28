@@ -51,10 +51,7 @@ table {
 
 body{
   font-family: 'Indie Flower', cursive;
-  background-image: url('img/TheySeeMeRolling.jpg');
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center center;
+	background-color: #ffbb5a;
 }
 
 #header{
@@ -79,13 +76,13 @@ body{
 }
 
 .container{
-	padding: 2em 1em;
-	width: 22.5em;
-	margin: auto;
-	max-width: 100%;
-	margin-top: 1em;
-	position: relative;
-	background-color: rgba(64,178,232,.8);
+  padding: 1em 2em;
+  margin: auto;
+	width: 100%;
+	max-width: 80%;
+  margin-top: 1em;
+  position: relative;
+  background-color: rgba(64,178,232,.8);
 }
 
 figure > img{
@@ -97,7 +94,7 @@ figure > img{
 }
 
 figcaption{
-  font-size: 3vw;
+  font-size: 1em;
 	text-align: center;
 }
 
@@ -108,8 +105,12 @@ figcaption{
 }
 
 .content p{
-	font-size: 1.125em;
+	font-size: 1.25em;
 	display: block;
+	margin: auto;
+	text-align: left;
+	width: 15em;
+	max-width: 100%;
 	padding-bottom: .6em;
 	padding-top: .3em;
 }
@@ -137,22 +138,15 @@ figcaption{
 	opacity: .6;
 }
 
-.flexbox{
-	padding: 1em 2em;
-	width: 80%
-	margin: 0;
-	display: flex;
-	display: -webkit-box;
-	display: -moz-box;
-	display: -ms-flexbox;
-	display: -webkit-flex;
-	-webkit-flex-flow: column;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+.flexbox {
+
+}
+.flexbox > #video{
+	display: block;
+	overflow: hidden;
 }
 
-@media only screen and (min-width: 675px){
+@media only screen and (min-width: 380px){
   #header{
     height: 3.5em;
   }
@@ -171,9 +165,9 @@ figcaption{
 	}
 
 	.container{
-	  padding: 2em 1em;
-		width: 42.188em;
-		max-width: 100%;
+	  padding: 1em 2em;
+	  margin: auto;
+	  width: 80%;
 	  margin-top: 1em;
 	  position: relative;
 	  background-color: rgba(64,178,232,.8);
@@ -190,18 +184,18 @@ figcaption{
 	}
 
 	figcaption{
-	  font-size: 3vw;
+	  font-size: 1.3em;
 		text-align: center;
 	}
 
 	.content h2{
 		text-align: center;
-		font-size: 2.5em;
+		font-size: 3.5em;
 	  font-weight: bold;
 	}
 
 	.content p{
-	  font-size: 1.7em;
+	  font-size: 2.7em;
 	  display: block;
 	  padding-bottom: 1em;
 	  padding-top: .5em;
@@ -231,16 +225,16 @@ figcaption{
 
 	.flexbox{
 	  padding: 1em 2em;
-	  width: 80%
+		max-width: 100%;
 	  margin: 0;
 	  display: flex;
 	  display: -webkit-box;
 	  display: -moz-box;
 	  display: -ms-flexbox;
 	  display: -webkit-flex;
-	  -webkit-flex-flow: row wrap;
-		flex-direction: row;
-	  justify-content: space-around;
+	  -webkit-flex-flow: column wrap;
+		flex-direction: column;
+	  justify-content: center;
 	  align-items: center;
 	}
 
@@ -267,7 +261,8 @@ figcaption{
 .container{
   padding: 1em 2em;
   margin: auto;
-  width: 100%;
+  width: 80%;
+	max-width: 100%;
   margin-top: 1em;
   position: relative;
   background-color: rgba(64,178,232,.8);
@@ -284,17 +279,17 @@ figure > img{
 }
 
 figcaption{
-  font-size: 3vw;
+  font-size: 1.5em;
 	text-align: center;
 }
 
 .content h2{
-  font-size: 3.7em;
+  font-size: 4.25em;
   font-weight: bold;
 }
 
 .content p{
-  font-size: 2.25em;
+  font-size: 3.5em;
   display: block;
   padding-bottom: 1em;
   padding-top: .5em;
@@ -324,7 +319,6 @@ figcaption{
 
 .flexbox{
   padding: 1em 2em;
-  width: 80%
   margin: 0;
   display: flex;
   display: -webkit-box;
