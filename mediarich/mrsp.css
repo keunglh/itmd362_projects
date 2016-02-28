@@ -127,14 +127,28 @@ figcaption{
 }
 
 .btt{
-  width: 8em;
-  height: 8em;
+  width: 6em;
+  height: 6em;
   position: fixed;
   bottom: 20px;
   right: 20px;
   background:url('img/btt.png') no-repeat center;
   display: none;
-  -webkit-border-radius: 2em;
-  -moz-border-radius: 2em;
-  border-radius: 2em;
+  -webkit-border-radius: .8em;
+  -moz-border-radius: .8em;
+  border-radius: .8em;
+}
+
+.flexbox{
+  padding: 1em 2em;
+  width: 100%
+  margin: 0;
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
 }
