@@ -1,13 +1,17 @@
 body{
-
+  font-family: 'Indie Flower', cursive;
 
 }
 
 html{
-
+  font-family: 'Noto Sans', sans-serif;
 
 }
 
+#links {
+  font-family: 'Bitter', serif;
+
+}
 h1{
 
 
