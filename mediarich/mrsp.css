@@ -240,7 +240,102 @@ figcaption{
 
 }
 
-@media only screen and (min-width: 900px){
+@media only screen and (max-width: 380px){
+  #header{
+    height: 3.5em;
+  }
+
+  #heading{
+    font-size: 2.75em;
+    text-align: center;
+    max-width: 100%;
+    width: 50em;
+  }
+
+	#subheading{
+		font-size: 1.75em;
+		text-align: center;
+    max-width: 80%;
+	}
+
+	.container{
+	  padding: 1em 2em;
+	  margin: auto;
+	  width: 80%;
+		max-width: 100%;
+	  margin-top: 1em;
+	  position: relative;
+	  background-color: rgba(64,178,232,.8);
+	}
+
+	figure > img{
+	  clear: both;
+	  display: block;
+	  margin-left: auto;
+	  margin-bottom: 1.5em;
+	  margin-right: auto;
+	  width: 33.781em;
+	  max-width: 100%;
+	}
+
+	figcaption{
+	  font-size: 1.3em;
+		text-align: center;
+	}
+
+	.content h2{
+		text-align: center;
+		font-size: 3.5em;
+	  font-weight: bold;
+	}
+
+	.content p{
+	  font-size: 2.7em;
+	  display: block;
+	  padding-bottom: 1em;
+	  padding-top: .5em;
+	}
+
+	#bold{
+	  font-weight: bold;
+	  font-size: 1.90em;
+	}
+
+	#links {
+	  font-family: 'Bitter', serif;
+	}
+
+	.btt{
+	  width: 6em;
+	  height: 8em;
+	  position: fixed;
+	  bottom: 3em;
+	  right: 5em;
+	  background:url('img/btt.png') no-repeat center center;
+	  display: none;
+	  -webkit-border-radius: .8em;
+	  -moz-border-radius: .8em;
+	  border-radius: .8em;
+	}
+
+	.flexbox{
+	  padding: 1em 2em;
+		max-width: 100%;
+	  margin: 0;
+	  display: flex;
+	  display: -webkit-box;
+	  display: -moz-box;
+	  display: -ms-flexbox;
+	  display: -webkit-flex;
+	  -webkit-flex-flow: column wrap;
+		flex-direction: column;
+	  justify-content: center;
+	  align-items: center;
+	}
+
+}
+
+@media only screen and (min-width: 980px){
   #header{
     height: 6.8em;
   }
@@ -284,7 +379,7 @@ figcaption{
 }
 
 .content h2{
-  font-size: 4.25em;
+  font-size: 4.0em;
   font-weight: bold;
 }
 
