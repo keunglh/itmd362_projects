@@ -267,7 +267,7 @@ figcaption{
 .container{
   padding: 1em 2em;
   margin: auto;
-  width: 80%;
+  width: 100%;
   margin-top: 1em;
   position: relative;
   background-color: rgba(64,178,232,.8);
