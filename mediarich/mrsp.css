@@ -25,13 +25,39 @@ html{
   font-size: 2.75em;
 }
 
-.imgContainer img {
-  display: block;
-  width: 100%;
-  max-width: 23.438em;
-  height: auto;
+.container{
+  padding: 1em 2em;
+  margin: auto;
+  width: 80%;
+  margin-top: 1em;
+  position: relative;
+  background-color: #40B2E8;
 }
 
+figure{
+  clear: both;
+  display: block;
+  margin-left: auto;
+  margin-bottom: 1.5em;
+  margin-right: auto;
+  width: 33.781em;
+  max-width: 100%;
+}
+
+.content h2{
+  font-size: 3em;
+}
+
+.content p{
+  font-size: 2.25em;
+  display: block;
+  padding-bottom: 1em;
+  padding-top: .5em;
+}
+
+#bold{
+  font-weight: bold;
+}
 
 #links {
   font-family: 'Bitter', serif;
@@ -49,11 +75,18 @@ p{
 }
 
 figcaption{
-
+  font-size: 1vw;
 }
 
-img{
-  width: 100%;
-
-
+.btt{
+  width: 8em;
+  height: 8em;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background:url('img/btt.png') no-repeat center;
+  display: none;
+  -webkit-border-radius: 2em;
+  -moz-border-radius: 2em;
+  border-radius: 2em;
 }
