@@ -57,9 +57,12 @@ body{
 #header{
   font-family: 'Noto Sans', sans-serif;
   position: relative;
-  height:3em;
+	margin: 0 auto;
+	text-align: center;
+	padding: 2em;
+  height: 3 em;
   background-color: #40B2E8;
-  opacity: .8;
+	font-size-adjust: auto;
 }
 
 #heading{
@@ -85,14 +88,16 @@ figure > img{
 }
 
 figcaption{
-  font-size: 1em;
+  font-size: .8em;
 	text-align: center;
+	padding: 1em 0;
 }
 
 .content{
   padding: 1em 2em;
-  margin: auto;
+  margin: 1em auto;
 	width: 80%;
+	max-width: 100%;
   margin-top: 1em;
   position: relative;
   background-color: rgba(64,178,232,.8);
@@ -109,25 +114,27 @@ figcaption{
 	display: block;
 	margin: auto;
 	text-align: left;
-	width: 15em;
+	width: 80%;
 	max-width: 100%;
 	padding-bottom: .6em;
 	padding-top: .3em;
 }
+
 #bold{
   font-weight: bold;
   font-size: .90em;
 }
+
 #links {
 font-family: 'Bitter', serif;
 }
 
 .btt{
-	width: 6em;
-	height: 8em;
+	width: 1.5em;
+	height: 1.5em;
 	position: fixed;
 	bottom: 1em;
-	right: 1.5em;
+	right: .5em;
 	background:url('img/uppity.png') no-repeat center center;
 	display: none;
 	-webkit-border-radius: .4em;
@@ -136,9 +143,15 @@ font-family: 'Bitter', serif;
 	opacity: .6;
 }
 
-.flexbox > #video {
-	margin: auto;
+#flex_video{
 	display: flex;
+	align-items: center;
+	justify-content: center;
+	}
+
+#video{
+	width: 560;
+	height: 445;
 }
 
 @media only screen and (min-width: 550px){
@@ -154,9 +167,11 @@ font-family: 'Bitter', serif;
   }
 
 	#subheading{
-		font-size: 1.75em;
+		display: block;
+		font-size: 1.25em;
 		text-align: center;
-    max-width: 80%;
+		width: 100%;
+		max-width: 100%;
 	}
 
 	figure > img{
@@ -170,14 +185,15 @@ font-family: 'Bitter', serif;
 	}
 
 	figcaption{
-	  font-size: 1.3em;
+	  font-size: 1em;
 		text-align: center;
+		margin: 0 0;
 	}
 
 	.content{
 	  padding: 1em 2em;
-	  margin: auto;
-	  width: 80%;
+	  margin: 2em auto;
+	  width: 90%;
 		max-width: 100%;
 	  margin-top: 1em;
 	  position: relative;
@@ -198,11 +214,11 @@ font-family: 'Bitter', serif;
 	}
 
 	.btt{
-	  width: 6em;
-	  height: 8em;
+	  width: 2em;
+	  height: 2em;
 	  position: fixed;
 	  bottom: 3em;
-	  right: 5em;
+	  right: 2em;
 	  background:url('img/btt.png') no-repeat center center;
 	  display: none;
 	  -webkit-border-radius: .8em;
@@ -211,9 +227,8 @@ font-family: 'Bitter', serif;
 	}
 
 	.flexbox{
-	  padding: 1em 2em;
 		max-width: 100%;
-	  margin: 0;
+	  margin: 0 0;
 	  display: flex;
 	  display: -webkit-box;
 	  display: -moz-box;
@@ -233,22 +248,20 @@ font-family: 'Bitter', serif;
   }
 
   #heading{
-    font-size: 4.25em;
-    max-width: 100%;
-    width: 100%;
+    font-size: 3.75em;
   }
 
   #subheading{
+		font-size: 1.75em;
 		display: block;
     text-align: center;
-    font-size: 1.5em;
-		width: 80%
+		width: 100%;
   }
 
 .content{
-  padding: 1em 2em;
-  margin: auto;
-  width: 80%;
+  padding: 1em .8em;
+  margin: 2em auto;
+  width: 90%;
 	max-width: 100%;
   margin-top: 1em;
   position: relative;
@@ -266,7 +279,7 @@ figure > img{
 }
 
 figcaption{
-  font-size: 1.5em;
+  font-size: 1.3em;
 	text-align: center;
 }
 
@@ -276,6 +289,8 @@ figcaption{
 }
 
 .content p{
+	width: 90%;
+	max-width: 100%;
   font-size: 2.5em;
   display: block;
   padding-bottom: 1em;
@@ -283,11 +298,11 @@ figcaption{
 }
 
 .btt{
-  width: 6em;
-  height: 8em;
+  width: 2em;
+  height: 2em;
   position: fixed;
-  bottom: 20px;
-  right: 20px;
+  bottom: 1em;
+  right: 2em;
   background:url('img/btt.png') no-repeat center;
   display: none;
   -webkit-border-radius: .8em;
@@ -299,8 +314,8 @@ figcaption{
   padding: 1em 2em;
   margin: 0;
   display: flex;
-  display: -webkit-box;
-  display: -moz-box;
+  display: -webkit-flexbox;
+  display: -moz-flexbox;
   display: -ms-flexbox;
   display: -webkit-flex;
   -webkit-flex-flow: row wrap;
