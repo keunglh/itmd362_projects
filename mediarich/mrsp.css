@@ -50,7 +50,7 @@ table {
 /* Custom CSS starts here */
 
 body{
-  font-family: 'Indie Flower', cursive;
+  font-family: 'Reenie Beanie', cursive;
 	background-color: #ffbb5a;
 }
 
@@ -72,6 +72,7 @@ body{
 
 #subheading{
   display:none;
+	line-height: 1.8em;
 	margin: auto;
 }
 
