@@ -61,6 +61,7 @@ body{
 	text-align: center;
 	padding: 2em;
   height: 3 em;
+	/* Made the clear opacity just to have a stronger contrast with font color */
 	color: rgba(52,136,255, 1);
   background-color: #4d4d4d;
 	font-size-adjust: auto;
@@ -76,6 +77,9 @@ body{
 }
 
 #subheading{
+	/*since I'm using the "min-width" media queries,
+	I didn't want to display the subheading until
+	certain sizes so the font doesn't spill over */
   display:none;
 	line-height: 1.8em;
 	margin: auto;
@@ -87,6 +91,7 @@ figure > img{
 	margin:auto;
 	width:15.313em;
 	max-width: 80%;
+	/* small QOL addition to images, a box shadow */
 	box-shadow: .25em .25em. .45em #20497F;
 	-moz-box-shadow: .25em 0.25em 0.45em #20497F;
 	-webkit-box-shadow: .25em 0.25em 0.45em #20497F;
@@ -94,6 +99,7 @@ figure > img{
 }
 
 figcaption{
+	/*using a fig caption instead of a <p> tag for image caption*/
   font-size: .8em;
 	text-align: center;
 	padding-top: 1em;
@@ -105,6 +111,7 @@ figcaption{
 	width: 80%;
 	max-width: 100%;
   position: relative;
+	/* depending how the screen is stretched or zoomed, this should be helpful */
 	-webkit-text-size-adjust: 100%;
  	-moz-text-size-adjust: 100%;
  	-ms-text-size-adjust: 100%;
@@ -130,17 +137,22 @@ figcaption{
 }
 
 #bold{
+	/* span attributes */
   font-weight: bold;
   font-size: .90em;
 }
 
 #links {
+	/* different font so that the link sticks out more,
+	breaks the doldrum at the end of the page */
 font-family: 'Bitter', serif;
 }
 
 .btt{
+	/* back to top button */
 	width: 1.5em;
 	height: 1.5em;
+	/*ensures that it stays in the same place regardless of size and scrolling through the page */
 	position: fixed;
 	bottom: 1em;
 	right: .5em;
@@ -153,6 +165,7 @@ font-family: 'Bitter', serif;
 }
 
 #flex_video{
+	/* flex container for youtube iframe */
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -168,7 +181,8 @@ font-family: 'Bitter', serif;
 	align-items: center;
 	}
 
-@media only screen and (min-width: 550px){
+/* 550px arbitrary number that went well with my font and font sizes*/
+@media only screen and (min-width: 34.375em){
   #header{
     height: 3.5em;
   }
@@ -180,6 +194,7 @@ font-family: 'Bitter', serif;
     width: 100%;
   }
 
+/* can display subheading because larger screen, larger font and header height */
 	#subheading{
 		display: block;
 		font-size: 1.25em;
@@ -241,7 +256,8 @@ font-family: 'Bitter', serif;
 
 }
 
-@media only screen and (min-width: 980px){
+/* 980 px */
+@media only screen and (min-width: 61.25em){
   #header{
     height: 6.8em;
   }
@@ -282,7 +298,7 @@ figcaption{
 }
 
 .content h2{
-  font-size: 3.25em;
+  font-size: 4.25em;
   font-weight: bold;
 }
 
