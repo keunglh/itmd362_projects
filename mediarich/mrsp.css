@@ -71,7 +71,8 @@ body{
 	font-style: bold;
   text-align: center;
   max-width: 100%;
-  width: 50em;
+  width: 90%;
+	margin: auto;
 }
 
 #subheading{
@@ -99,14 +100,13 @@ figcaption{
   margin: 1em auto;
 	width: 80%;
 	max-width: 100%;
-  margin-top: 1em;
   position: relative;
   background-color: rgba(64,178,232,.8);
 }
 
 .content h2{
 	text-align: center;
-	font-size: 1.75em;
+	font-size: 1.35em;
 	font-weight: bold;
 }
 
