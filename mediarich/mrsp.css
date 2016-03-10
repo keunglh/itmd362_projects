@@ -255,8 +255,8 @@ font-family: 'Bitter', serif;
 	}
 
 	.btt{
-	  width: 2em;
-	  height: 2em;
+	  width: 2.5em;
+	  height: 2.5em;
 	  position: fixed;
 	  bottom: 3em;
 	  right: 2em;
@@ -325,8 +325,8 @@ figcaption{
 }
 
 .btt{
-  width: 2em;
-  height: 2em;
+  width: 2.5em;
+  height: 2.5em;
   position: fixed;
   bottom: 1em;
   right: 2em;
