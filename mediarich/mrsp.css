@@ -92,7 +92,7 @@ figure > img{
 figcaption{
   font-size: .8em;
 	text-align: center;
-	padding-top: .8em;
+	padding-top: 1em;
 }
 
 .content{
@@ -184,14 +184,14 @@ font-family: 'Bitter', serif;
 	  clear: both;
 	  display: block;
 	  margin-left: auto;
-	  margin-bottom: 1.5em;
+	  margin-bottom: 1.25em;
 	  margin-right: auto;
 	  width: 33.781em;
 	  max-width: 100%;
 	}
 
 	figcaption{
-	  font-size: 1em;
+	  font-size: 1.35em;
 		text-align: center;
 		margin-top: -1em;
 	}
@@ -269,7 +269,7 @@ figure > img{
 }
 
 figcaption{
-  font-size: 1.3em;
+  font-size: 1.6em;
 	text-align: center;
 }
 
