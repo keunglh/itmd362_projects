@@ -199,7 +199,7 @@ font-family: 'Bitter', serif;
 	.content{
 	  padding: 1em 2em;
 	  margin: 2em auto;
-	  width: 90%;
+	  width: 80%;
 		max-width: 100%;
 	  position: relative;
 	  background-color: rgba(64,178,232,.8);
@@ -216,6 +216,8 @@ font-family: 'Bitter', serif;
 	  display: block;
 	  padding-bottom: 1em;
 	  padding-top: .5em;
+		margin: 90%;
+		max-width: 100%;
 	}
 
 	.btt{
