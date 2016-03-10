@@ -197,7 +197,7 @@ font-family: 'Bitter', serif;
 	}
 
 	.content{
-	  padding: 1em 2em;
+	  padding: 1em 1.5em;
 	  margin: 2em auto;
 	  width: 80%;
 		max-width: 100%;
@@ -216,7 +216,7 @@ font-family: 'Bitter', serif;
 	  display: block;
 	  padding-bottom: 1em;
 	  padding-top: .5em;
-		margin: 90%;
+		width: 90%;
 		max-width: 100%;
 	}
 
