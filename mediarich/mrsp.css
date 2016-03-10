@@ -50,11 +50,24 @@ table {
 /* Custom CSS starts here */
 
 body{
+/* Reason I chose a "handwriting" style font was
+because this page was meant to be a "collection" of thoughts,
+as a result, I thought it was best to have something emulate
+that tone and characterist */
+/* I also debated on if I should include a background image
+but with a media rich SINGLE PAGE, I felt that having such a
+large background image would only slow down the page and increase
+the loading time, which is why I decided to go with a simple color
+scheme that I feel can convey a good variety of feelings and thoughts.
+Orange and blue are relatively soothing and peaceful, while maintaining
+a constrasting strength*/
   font-family: 'Reenie Beanie', cursive;
 	background-color: #ffbb5a;
 }
 
 #header{
+/* Though I wanted a handwriting font, the headers and headings I wanted
+to look clean and well formatted as an introduction to the page */
   font-family: 'Noto Sans', sans-serif;
   position: relative;
 	margin: 0 auto;
