@@ -87,6 +87,10 @@ figure > img{
 	margin:auto;
 	width:15.313em;
 	max-width: 80%;
+	box-shadow: .25em .25em. .45em #20497F;
+	-moz-box-shadow: .25em 0.25em 0.45em #20497F;
+	-webkit-box-shadow: .25em 0.25em 0.45em #20497F;
+	-khtml-box-shadow: .25em 0.25em 0.45em #20497F;
 }
 
 figcaption{
@@ -101,6 +105,10 @@ figcaption{
 	width: 80%;
 	max-width: 100%;
   position: relative;
+	-webkit-text-size-adjust: 100%;
+ 	-moz-text-size-adjust: 100%;
+ 	-ms-text-size-adjust: 100%;
+ 	text-size-adjust: 100%;
   background-color: rgba(64,178,232,.8);
 }
 
