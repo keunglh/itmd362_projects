@@ -1,3 +1,27 @@
+git lfs - large file storage > 100mb
+when you install git lfs, only do it locally for the specific repository.
+
+git lfs install --local
+git lfs uninstall (if you forget local)
+
+# 1: Uncompress tarball
+
+To uncompress them, execute the following command(s) depending on the extension:
+$ tar zxf file.tar.gz
+$ tar zxf file.tgz
+$ tar jxf file.tar.bz2
+$ tar jxf file.tbz2
+
+Now change directory
+$ ls
+$ cd path-to-software/
+# 2: Build and install software
+
+Generally you need to type 3 commands as follows for building and compiling software:
+# ./configure
+# make
+# make install (or you can use checkinstall)
+
 From working directory, you add it into the staging index of your repository and committing it actually adds it to the repository.
 
 adding user account and email
