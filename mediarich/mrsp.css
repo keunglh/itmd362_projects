@@ -50,10 +50,16 @@ table {
 /* Custom CSS starts here */
 
 body{
-/* Reason I chose a "handwriting" style font was
-because this page was meant to be a "collection" of thoughts,
-as a result, I thought it was best to have something emulate
-that tone and characterist */
+
+/* For the longest time I debated whether or not I would use a "handwriting" style font.
+I had intended for this page to be a "collection" of thoughts,
+and as a result, I thought it was best to have something emulate
+that tone and characteristic. I had thought that it had looked fine on a desktop
+but some critiques by others had pointed out that the handwriting style was difficult to read.
+So, I ended up changing out the font to a much more "clean and blocked" style that should be both user friendly
+and agreeable with how I wanted the page to be.
+ */
+
 /* I also debated on if I should include a background image
 but with a media rich SINGLE PAGE, I felt that having such a
 large background image would only slow down the page and increase
@@ -61,7 +67,8 @@ the loading time, which is why I decided to go with a simple color
 scheme that I feel can convey a good variety of feelings and thoughts.
 Orange and blue are relatively soothing and peaceful, while maintaining
 a constrasting strength*/
-  font-family: 'Reenie Beanie', cursive;
+
+  font-family: 'Droid Sans', sans-serif;
 	background-color: #ffbb5a;
 }
 
@@ -74,6 +81,7 @@ to look clean and well formatted as an introduction to the page */
 	text-align: center;
 	padding: 2em;
   height: 3 em;
+
 	/* Made the clear opacity just to have a stronger contrast with font color */
 	color: rgba(52,136,255, 1);
   background-color: #4d4d4d;
@@ -104,6 +112,7 @@ figure > img{
 	margin:auto;
 	width:15.313em;
 	max-width: 80%;
+
 	/* small QOL addition to images, a box shadow */
 	box-shadow: .25em .25em. .45em #20497F;
 	-moz-box-shadow: .25em 0.25em 0.45em #20497F;
@@ -124,6 +133,7 @@ figcaption{
 	width: 80%;
 	max-width: 100%;
   position: relative;
+
 	/* depending how the screen is stretched or zoomed, this should be helpful */
 	-webkit-text-size-adjust: 100%;
  	-moz-text-size-adjust: 100%;
@@ -150,26 +160,30 @@ figcaption{
 }
 
 #bold{
-	/* span attributes */
-  font-weight: bold;
-  font-size: .90em;
+		/* span attributes */
+	  font-weight: bold;
+	  font-size: .90em;
 }
 
 #links {
 	/* different font so that the link sticks out more,
 	breaks the doldrum at the end of the page */
-font-family: 'Bitter', serif;
+	font-family: 'Bitter', serif;
 }
 
 .btt{
 	/* back to top button */
 	width: 1.5em;
 	height: 1.5em;
+
 	/*ensures that it stays in the same place regardless of size and scrolling through the page */
 	position: fixed;
 	bottom: 1em;
 	right: .5em;
 	background:url('img/uppity.png') no-repeat center center;
+
+	/* I don't want it to appear, uses javascript so that after a certain amount of pixels scrolled it will appear then*/
+	/* Even if javascript is disabled, it's not too bad of a difference */
 	display: none;
 	-webkit-border-radius: .4em;
 	-moz-border-radius: .4em;
@@ -196,95 +210,94 @@ font-family: 'Bitter', serif;
 
 /* 550px arbitrary number that went well with my font and font sizes*/
 @media only screen and (min-width: 34.375em){
-  #header{
-    height: 3.5em;
-  }
+#header{
+  height: 3.5em;
+}
 
-  #heading{
-    font-size: 2.75em;
-    text-align: center;
-    max-width: 100%;
-    width: 100%;
-  }
+#heading{
+  font-size: 2.75em;
+  text-align: center;
+  max-width: 100%;
+  width: 100%;
+}
 
 /* can display subheading because larger screen, larger font and header height */
-	#subheading{
-		display: block;
-		font-size: 1.25em;
-		text-align: center;
-		width: 100%;
-		max-width: 100%;
-	}
+#subheading{
+	display: block;
+	font-size: 1.25em;
+	text-align: center;
+	width: 100%;
+	max-width: 100%;
+}
 
-	figure > img{
-	  clear: both;
-	  display: block;
-	  margin-left: auto;
-	  margin-bottom: 1.25em;
-	  margin-right: auto;
-	  width: 33.781em;
-	  max-width: 100%;
-	}
+figure > img{
+  clear: both;
+	display: block;
+	margin-left: auto;
+	margin-bottom: 1.25em;
+	margin-right: auto;
+	width: 33.781em;
+	max-width: 100%;
+}
 
-	figcaption{
-	  font-size: 1.35em;
-		text-align: center;
-		margin-top: -1em;
-	}
+figcaption{
+  font-size: 1.35em;
+	text-align: center;
+	margin-top: -1em;
+}
 
-	.content{
-	  padding: 1em 1.5em;
-	  margin: 2em auto;
-	  width: 80%;
-		max-width: 100%;
-	  position: relative;
-	  background-color: rgba(64,178,232,.8);
-	}
+.content{
+  padding: 1em 1.5em;
+  margin: 2em auto;
+  width: 80%;
+	max-width: 100%;
+  position: relative;
+  background-color: rgba(64,178,232,.8);
+}
 
-	.content h2{
-		text-align: center;
-		font-size: 2.75em;
-	  font-weight: bold;
-	}
+.content h2{
+	text-align: center;
+	font-size: 2.75em;
+  font-weight: bold;
+}
 
-	.content p{
-	  font-size: 2.25em;
-	  display: block;
-	  padding-bottom: 1em;
-	  padding-top: .5em;
-	}
+.content p{
+  font-size: 2.25em;
+  display: block;
+  padding-bottom: 1em;
+  padding-top: .5em;
+}
 
-	.btt{
-	  width: 2.5em;
-	  height: 2.5em;
-	  position: fixed;
-	  bottom: 3em;
-	  right: 2em;
-	  background:url('img/btt.png') no-repeat center center;
-	  display: none;
-	  -webkit-border-radius: .8em;
-	  -moz-border-radius: .8em;
-	  border-radius: .8em;
-	}
-
+.btt{
+  width: 2.5em;
+  height: 2.5em;
+  position: fixed;
+  bottom: 3em;
+  right: 2em;
+  background:url('img/btt.png') no-repeat center center;
+  display: none;
+  -webkit-border-radius: .8em;
+  -moz-border-radius: .8em;
+  border-radius: .8em;
+}
 }
 
 /* 980 px */
 @media only screen and (min-width: 61.25em){
-  #header{
-    height: 6.8em;
-  }
+#header{
+  height: 6.8em;
+}
 
-  #heading{
-    font-size: 3.75em;
-  }
+#heading{
+  font-size: 3.75em;
+}
 
-  #subheading{
-		font-size: 1.75em;
-		display: block;
-    text-align: center;
-		width: 100%;
-  }
+#subheading{
+	font-size: 1.75em;
+	display: block;
+  text-align: center;
+	width: 100%;
+}
 
 .content{
   padding: 1em .8em;
