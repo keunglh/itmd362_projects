@@ -122,7 +122,7 @@ figure > img{
 
 figcaption{
 	/*using a fig caption instead of a <p> tag for image caption*/
-  font-size: .8em;
+  font-size: .5em;
 	text-align: center;
 	padding-top: 1em;
 }
@@ -241,7 +241,7 @@ figure > img{
 }
 
 figcaption{
-  font-size: 1.35em;
+  font-size: .8em;
 	text-align: center;
 	margin-top: -1em;
 }
@@ -319,7 +319,7 @@ figure > img{
 }
 
 figcaption{
-  font-size: 1.6em;
+  font-size: 1em;
 	text-align: center;
 }
 
