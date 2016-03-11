@@ -71,7 +71,12 @@ a constrasting strength*/
   font-family: 'Droid Sans', sans-serif;
 	background-color: #ffbb5a;
 }
-
+#everything{
+	/* Approximately 1280px screens */
+	max-width: 80em;
+	margin-left: auto;
+	margin-right: auto;
+}
 #header{
 /* Though I wanted a handwriting font, the headers and headings I wanted
 to look clean and well formatted as an introduction to the page */
@@ -132,9 +137,6 @@ figcaption{
   margin: 1em auto;
 	width: 80%;
 	max-width: 100%;
-
-	/* Approximately 1280px screens */
-	max-width: 80em;
   position: relative;
 
 	/* depending how the screen is stretched or zoomed, this should be helpful */
