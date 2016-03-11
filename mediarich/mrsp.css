@@ -130,6 +130,7 @@ figcaption{
   font-size: .5em;
 	text-align: center;
 	padding-top: 1em;
+	max-width: 560px;
 }
 
 .content{
