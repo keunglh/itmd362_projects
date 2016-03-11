@@ -144,12 +144,12 @@ figcaption{
 
 .content h2{
 	text-align: center;
-	font-size: 1.35em;
+	font-size: 1.25em;
 	font-weight: bold;
 }
 
 .content p{
-	font-size: 1.25em;
+	font-size: 1em;
 	display: block;
 	margin: auto;
 	text-align: left;
@@ -257,12 +257,12 @@ figcaption{
 
 .content h2{
 	text-align: center;
-	font-size: 2.75em;
+	font-size: 1.75em;
   font-weight: bold;
 }
 
 .content p{
-  font-size: 2.25em;
+  font-size: 1.25em;
   display: block;
   padding-bottom: 1em;
   padding-top: .5em;
@@ -324,14 +324,14 @@ figcaption{
 }
 
 .content h2{
-  font-size: 4.25em;
+  font-size: 2.0em;
   font-weight: bold;
 }
 
 .content p{
 	width: 90%;
 	max-width: 100%;
-  font-size: 2.5em;
+  font-size: 1.5em;
   display: block;
   padding-bottom: 1em;
   padding-top: .5em;
