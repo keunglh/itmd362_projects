@@ -132,6 +132,9 @@ figcaption{
   margin: 1em auto;
 	width: 80%;
 	max-width: 100%;
+
+	/* Approximately 1280px screens */
+	max-width: 80em;
   position: relative;
 
 	/* depending how the screen is stretched or zoomed, this should be helpful */
@@ -153,6 +156,7 @@ figcaption{
 	display: block;
 	margin: auto;
 	text-align: left;
+	line-height: 1.2em;
 	width: 80%;
 	max-width: 100%;
 	padding-bottom: .6em;
